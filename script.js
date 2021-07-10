@@ -38,6 +38,7 @@ function pwGenerator() {
 
   console.log(arrayChar)
 
+  // Ensures the final generated password matches the length designated by the user
   for (var i = 0; i < pwLength; i++) {
     randPW.push(arrayChar[Math.floor(Math.random() * arrayChar.length)]); 
   }
