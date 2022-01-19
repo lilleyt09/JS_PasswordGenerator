@@ -21,6 +21,11 @@ function pwGenerator() {
   var randPW = [];
 
   // The conditionals for the above prompts
+  if (pwLength <= 7){
+    window.alert('Password must be at least 8 characters long.')
+    return;
+  }
+
   if (pwUC){
     arrayChar = arrayChar.concat(uc);
   }
@@ -30,10 +35,16 @@ function pwGenerator() {
   }
 
   if (pwNum){
-    arrayChar = arrayChar.concat(num)
+    arrayChar = arrayChar.concat(num);
+  }
 
   if (pwChar){
     arrayChar = arrayChar.concat(char);
+  }
+
+  else {
+    window.alert('Password must consist of at least 1 type of character.')
+    return;
   }
 
   console.log(arrayChar)
@@ -42,9 +53,8 @@ function pwGenerator() {
   for (var i = 0; i < pwLength; i++) {
     randPW.push(arrayChar[Math.floor(Math.random() * arrayChar.length)]); 
   }
-    return randPW.join("") ;
+    return randPW.join("");
   }
-};
 
 // Write password to the #password input
 function writePassword() {
