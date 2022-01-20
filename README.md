@@ -1,7 +1,9 @@
 # JS_PasswordGenerator
 
+# Why use a password generator?
 With cyber security becoming ever more imperative, having a secure, complex password goes a long way.  This simple password generator allows users to generate random passwords based on criteria they set themselves, providing an added measure of security to any account.
 
+#How does it work?
 ![PWGenScreenshot1](https://user-images.githubusercontent.com/77951810/150237323-036c4481-eab9-4b34-a10d-1853c0633f5c.png)
 
 The simple layout of the generator allows even inexperienced users to create complex passwords.  By clicking the "Generate Password" button, the user initiates a series of "Confirm" prompts which allow the user to set the parameters of their password.  The parameters requested are:
