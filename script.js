@@ -26,6 +26,11 @@ function pwGenerator() {
     return;
   }
 
+  if (pwLength >= 129){
+    window.alert('Password cannot be longer than 128 characters.')
+    return;
+  }
+
   if (pwUC){
     arrayChar = arrayChar.concat(uc);
   }
