@@ -1,4 +1,4 @@
-# JavaScript-Homework
+# JS_PasswordGenerator
 
 With cyber security becoming ever more imperative, having a secure, complex password goes a long way.  This simple password generator allows users to generate random passwords based on criteria they set themselves, providing an added measure of security to any account.
 
